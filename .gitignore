@@ -1,0 +1,29 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environnements virtuels
+.venv/
+venv/
+ENV/
+env/
+
+# Fichiers temporaires et logs
+*.log
+*.tmp
+*.zip
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Fichiers d'export comptable personnels (éviter de commit des factures réelles)
+*.csv
+facture_extraite.json
